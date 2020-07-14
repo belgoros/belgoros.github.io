@@ -43,8 +43,13 @@ skills:
 #Work experience is required
 roles:
  - title: Senior Software Engineer
-   start: January 2014
+   start: February 2020
    end: Ongoing
+   employer: Devoteam, Brussels, Belgium
+   description: I'm involved in different projects and primarily working on client sites in Communications, Financial, Retail and Transport Services.
+ - title: Senior Software Engineer
+   start: January 2014
+   end: January 2020
    employer: GFI Informatique, Lille, France
    description: I'm involved in different projects and primarily working on client sites in Communications, Financial, Retail and Transport Services.
  - title: Ruby on Rais Enginner
