@@ -148,7 +148,8 @@ github:
 
 #Stackoverflow flair is optional
 stackoverflow:
-   profileurl: http://stackoverflow.com/users/1119043/belgoros
+   profileurl: https://stackoverflow.com/users/1119043/belgoros
+   flairimageurl: https://stackoverflow.com/users/flair/1119043.png
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
