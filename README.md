@@ -2,7 +2,6 @@
 
 A Jekyll based CV page generator.
 
-
 ## Making your own CV
 
 To make your own GitHub hosted CV:
@@ -13,7 +12,6 @@ To make your own GitHub hosted CV:
 4. Push to your github remote resitory.
 5. Visit `http://{{yourusername}}.github.io` to check it out.
 6. Share your new CV/Profile with the world!
-
 
 If you want to test it locally, install **Ruby** & **Jekyll**, clone the repository locally and run `jekyll serve` from the repo root directory.
 
