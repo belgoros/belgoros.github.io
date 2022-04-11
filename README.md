@@ -15,7 +15,13 @@ To make your own GitHub hosted CV:
 
 ## Running
 
-If you want to test it locally, install **Ruby** & **Jekyll**, clone the repository locally and run `jekyll serve` from the repo root directory.
+If you want to test it locally:
+
+- install **Ruby** & **Jekyll**
+- clone the repository locally
+- run `bundle` to install dependencies
+- `jekyll serve`
+- navigate to `localhost:4000`
 
 ## Deploying
 
