@@ -163,7 +163,7 @@ stackoverflow:
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring, JPA (Hibernate) in addition to others.<br/><br/>
-  <strong>Web Development</strong>: My server side web development experience has largely been based on the Ruby on Rails and Spring MVC frameworks. I have also worked with some client side technology, having used Ember JS, Tailwind CSS, Bootstrap, Foundation, LESS, SASS and have also experimented with other technologies such as Angular, Backbone, CoffeeScript.<br/><br/>
+  <strong>Web Development</strong>: My server side web development experience has largely been based on the Ruby on Rails and Spring MVC frameworks. But I'm doing my best to learn more Elixir and Phoenix. I have also worked with some client side technology, having used Ember JS, Tailwind CSS, Bootstrap, Foundation, LESS, SASS and have also experimented with other technologies such as Angular, Backbone, CoffeeScript.<br/><br/>
   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with GitLab, GitHub, Bitbucket, CVS, SVN, Maven, Sonar, Jira and Jenkins. I have experience with lots of testing tools and technologies.<br/><br/>
   I have also gained experience and knowledge from several side projects and research that I have undertaken in my free time, including Amazon S3, PayPal.<br/><br/>
   I created, and am now primary contributor to a Rails quiz application for students in medicine: <a target='_blank' href="https://github.com/belgoros/umed">UMed</a>, which provides integration with PayPal API and Amazon S3. <br/><br/>
