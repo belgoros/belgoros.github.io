@@ -32,14 +32,13 @@ skills:
   - Java EE
   - Spring MVC
   - Spring Boot
-	- JPA
-  - Hibernate
+  - JPA/Hibernate
   - Tapestry
   - JSF
   - Maven
   - Ember JS
   - Docker
-	- Kubernetes
+  - Kubernetes
   - Git/GitLab/GitHub/Bitbucket
 
 #Work experience is required
