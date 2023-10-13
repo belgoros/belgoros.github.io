@@ -29,15 +29,17 @@ skills:
   - Cucumber
   - RSpec
   - Capybara
-  - Java J2EE
+  - Java EE
   - Spring MVC
   - Spring Boot
+	- JPA
   - Hibernate
   - Tapestry
   - JSF
   - Maven
   - Ember JS
   - Docker
+	- Kubernetes
   - Git/GitLab/GitHub/Bitbucket
 
 #Work experience is required
@@ -56,7 +58,7 @@ roles:
   - title: Senior Software Engineer
     start: January 2014
     end: January 2020
-    employer: GFI Informatique, Lille, France
+    employer: GFI Informatique (now Inetum), Lille, France
     description: I'm involved in different projects and primarily working on client sites in Communications, Financial, Retail and Transport Services.
   - title: Ruby on Rais Enginner
     start: Oct.2013
@@ -72,19 +74,19 @@ roles:
     start: June 2010
     end: June 2013
     employer: Atos Integration, France
-    description: A range technical roles, primarily working on client sites in Financial, Retail, Transport Services.
+    description: A range of technical roles, primarily working on client sites in Financial, Retail, Transport Services.
   - title: Software Engineer
     start: March 2007
     end: March 2010
     employer: Aubay.Promotic, Belgium
-    description: A range technical roles, primarily working on client sites in Retail, Transport Services, Public and State Institutions.
+    description: A range of technical roles, primarily working on client sites in Retail, Transport Services, Public and State Institutions.
 
 #Education is required
 education:
   - level: Master of Engineering
     date: 1991
     subject: Computer Sciences and Information Technology
-    school: University of Krasnodar, Russia
+    school: Kuban State University, Krasnodar, Russia
 
 #This section is optional (as is the image link below)
 courses:
