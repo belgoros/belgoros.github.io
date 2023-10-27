@@ -89,6 +89,21 @@ education:
 
 #This section is optional (as is the image link below)
 courses:
+  - title: Elixir Engineer, DockYard Academy
+    link: https://github.com/DockYard-Academy
+    date: July 2023
+  - title: Build an MVP With Elixir
+    link: https://pjullrich.gumroad.com/l/bmvp
+    date: June 2023
+  - title: The Complete Elixir and Phoenix Bootcamp, Udemy
+    link: https://www.udemy.com/course/the-complete-elixir-and-phoenix-bootcamp-and-tutorial/
+    date: April - May 2021
+  - title: Kubernetes Certified Application Developer (CKAD), Udemy
+    link: https://www.udemy.com/course/certified-kubernetes-application-developer/
+    date: Feb - March 2021
+  - title: Coding Elixir, The Coding Gnome
+    link: https://codestool.coding-gnome.com/courses/elixir-for-programmers-2
+    date: April - May 2019
   - title: shaping-up-with-angular-js
     link: https://www.codeschool.com/courses/shaping-up-with-angular-js
     date: September 2014
