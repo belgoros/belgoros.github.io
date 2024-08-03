@@ -29,12 +29,13 @@ skills:
   - Cucumber
   - RSpec
   - Capybara
+  - Tailwind CSS
   - Java EE
   - Spring MVC
   - Spring Boot
   - JPA/Hibernate
   - Tapestry
-  - JSF
+  - GraphQL/Absinthe
   - Maven
   - Ember JS
   - Docker
@@ -89,6 +90,12 @@ education:
 
 #This section is optional (as is the image link below)
 courses:
+  - title: The Ultimate Elixir Course (Learn-Elixir.dev)
+    link: https://learn-elixir.dev
+    date: December 2023-June 2024
+  - title: Associate Cloud Engineer, GCP
+    link: https://cloud.google.com/learn/certification/cloud-engineer
+    date: January-February 2024
   - title: Elixir Engineer, DockYard Academy
     link: https://github.com/DockYard-Academy
     date: July 2023
