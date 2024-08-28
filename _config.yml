@@ -58,9 +58,9 @@ roles:
   - title: Senior Software Engineer
     start: January 2014
     end: January 2020
-    employer: GFI Informatique (now Inetum), Lille, France
+    employer: INETUM (former GFI Informatique), Lille, France
     description: I'm involved in different projects and primarily working on client sites in Communications, Financial, Retail and Transport Services.
-  - title: Ruby on Rais Enginner
+  - title: Ruby on Rails Engineer
     start: Oct.2013
     end: Feb. 2014
     employer: Teleborder, USA
@@ -69,7 +69,7 @@ roles:
     start: Oct.2013
     end: Jan.2014
     employer: Silicon Salad, Lille, France
-    description: WEB agency specialized in e-commerce solutions.</br>I'm involved in evoluating and support of existing Rails applications.
+    description: WEB agency specialized in e-commerce solutions.</br>I'm involved in evaluating and support of existing Rails applications.
   - title: Software Engineer
     start: June 2010
     end: June 2013
@@ -90,6 +90,9 @@ education:
 
 #This section is optional (as is the image link below)
 courses:
+  - title: Learn Phoenix LiveView (Arrowsmithlabs)
+    link: https://arrowsmithlabs.com
+    date: August 2024-ongoing
   - title: The Ultimate Elixir Course (Learn-Elixir.dev)
     link: https://learn-elixir.dev
     date: December 2023-June 2024
