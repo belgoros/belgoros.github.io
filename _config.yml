@@ -90,6 +90,9 @@ education:
 
 #This section is optional (as is the image link below)
 courses:
+  - title: Full-Stack Phoenix (The Pragmatic Studio)
+    link: https://pragmaticstudio.com/phoenix
+    date: November 2024 - present
   - title: Learn Phoenix LiveView (Arrowsmithlabs)
     link: https://arrowsmithlabs.com
     date: August 2024-September 2024
