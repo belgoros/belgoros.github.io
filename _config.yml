@@ -24,7 +24,7 @@ skills:
   - Ruby on Rails
   - Elixir
   - Phoenix
-	- Ecto
+  - Ecto
   - JRuby
   - Cucumber
   - RSpec
@@ -180,9 +180,9 @@ apps:
 #List of interesting Github repo/projects to include - optional
 github:
   - belgoros/slax
-	- belgoros/heads_up
-	- belgoros/calendlex
-	- belgoros/budgie
+  - belgoros/heads_up
+  - belgoros/calendlex
+  - belgoros/budgie
   - belgoros/decastore-api
   - belgoros/decastore-front
   - belgoros/spot-time
