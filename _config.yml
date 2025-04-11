@@ -24,7 +24,7 @@ skills:
   - Ruby on Rails
   - Elixir
   - Phoenix
-  - Crystal
+	- Ecto
   - JRuby
   - Cucumber
   - RSpec
@@ -92,7 +92,7 @@ education:
 courses:
   - title: Full-Stack Phoenix (The Pragmatic Studio)
     link: https://pragmaticstudio.com/phoenix
-    date: November 2024 - present
+    date: November 2024 - March 2025
   - title: Learn Phoenix LiveView (Arrowsmithlabs)
     link: https://arrowsmithlabs.com
     date: August 2024-September 2024
@@ -167,22 +167,25 @@ apps:
   - name: Decastore API
     url: https://github.com/belgoros/decastore-api
     description: Decathlon back-office API
+  - name: Slax
+    url: https://github.com/belgoros/slax
+    description: Phoenix app, clone of Slack application
   - name: UMed
     url: https://github.com/belgoros/umed
     description: Quiz for students in medicine (Rails)
-  - name: jlc-invest
-    url: https://github.com/belgoros/jlc-invest
-    description: clients portfolio management (Rails)
+  - name: Heads Up
+    url: https://github.com/belgoros/heads_up
+    description: Phoenix Web application
 
 #List of interesting Github repo/projects to include - optional
 github:
-  - belgoros/umed
+  - belgoros/slax
+	- belgoros/heads_up
+	- belgoros/calendlex
+	- belgoros/budgie
   - belgoros/decastore-api
   - belgoros/decastore-front
-  - belgoros/jlc-invest
-  - belgoros/blog-jsf
   - belgoros/spot-time
-  - belgoros/springy-blog
 
 #Stackoverflow flair is optional
 stackoverflow:
