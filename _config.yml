@@ -179,6 +179,9 @@ apps:
   - name: Heads Up
     url: https://github.com/belgoros/heads_up
     description: Phoenix Web application
+  - name: Users API
+    url: https://github.com/belgoros/users_api_serguei
+    description: Phoenix API with GraphQL
 
 #List of interesting Github repo/projects to include - optional
 github:
@@ -188,7 +191,7 @@ github:
   - belgoros/budgie
   - belgoros/decastore-api
   - belgoros/decastore-front
-  - belgoros/spot-time
+  - belgoros/users_api_serguei
 
 #Stackoverflow flair is optional
 stackoverflow:
