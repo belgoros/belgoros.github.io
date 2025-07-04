@@ -6,8 +6,8 @@ name: Serguei Cambour
 # Build settings
 markdown: kramdown
 
-#User specific content
-#Links that will appear in the navbar
+# User specific content
+# Links that will appear in the navbar
 primarylinks:
   - title: GitHub
     url: https://github.com/belgoros
@@ -18,8 +18,12 @@ primarylinks:
   - title: LinkedIn
     url: https://be.linkedin.com/in/serguei-cambour
 
-#Any buzzword skills you want to include
+# Any buzzword skills you want to include
 skills:
+  - Java EE
+  - Spring MVC
+  - Spring Boot
+  - Tapestry
   - Ruby
   - Ruby on Rails
   - Elixir
@@ -30,11 +34,7 @@ skills:
   - RSpec
   - Capybara
   - Tailwind CSS
-  - Java EE
-  - Spring MVC
-  - Spring Boot
   - JPA/Hibernate
-  - Tapestry
   - GraphQL/Absinthe
   - Maven
   - Ember JS
@@ -42,11 +42,11 @@ skills:
   - Kubernetes
   - Git/GitLab/GitHub/Bitbucket
 
-#Work experience is required
+# Work experience is required
 roles:
   - title: Senior Consultant/Engineer
     start: February 2021
-    end: ongoing
+    end: June 2025
     employer: Capgemini Engineering, Brussels, Belgium
     description: I'm involved in different projects and primarily working on client sites in Communications, Financial, Retail and Transport Services.
 
@@ -81,7 +81,7 @@ roles:
     employer: Aubay.Promotic, Belgium
     description: A range of technical roles, primarily working on client sites in Retail, Transport Services, Public and State Institutions.
 
-#Education is required
+# Education is required
 education:
   - level: Master of Engineering
     date: 1991
@@ -166,7 +166,10 @@ courses:
 apps:
   - name: Decastore API
     url: https://github.com/belgoros/decastore-api
-    description: Decathlon back-office API
+    description: Decathlon back-office API (Rails)
+  - name: Budgie
+    url: https://github.com/belgoros/budgie
+    description: Budgie is a simple and elegant budgeting app built with Elixir and Phoenix.
   - name: Slax
     url: https://github.com/belgoros/slax
     description: Phoenix app, clone of Slack application
