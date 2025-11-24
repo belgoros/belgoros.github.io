@@ -44,6 +44,12 @@ skills:
 
 # Work experience is required
 roles:
+  - title: Senior Software Engineer
+    start: October 2025
+    end: present
+    employer: self-employed - freelance role
+    description: Contributing to open source projects and working on personal projects using Java, Elixir and Phoenix.
+
   - title: Senior Consultant/Engineer
     start: February 2021
     end: June 2025
