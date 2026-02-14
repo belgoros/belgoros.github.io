@@ -1,26 +1,26 @@
 {% if site.github %}
-	<div class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1>Some projects I am working on</h1>
-		</div>
-		<div class="content-rounded-panel" style="overflow: hidden;">
-			<div>
+	<section id="github-projects" class="py-16 lg:py-20 bg-white/50">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-12 text-center">GitHub Projects</h2>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 				{% for project in site.github %}
-					{% assign loopindex = forloop.index | modulo: 2 %}
-					{% if loopindex == 1 %}
-					<div class="row">
-					{% endif %}
-						<div class="col-lg-6">
-							<div class="github-widget" data-repo="{{project}}"></div>
+					{% assign repo_name = project | split: '/' | last %}
+					{% assign github_url = 'https://github.com/' | append: project %}
+					<a href="{{github_url}}" target="_blank" class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border-t-4 border-purple-500 group block">
+						<div class="flex items-start justify-between mb-4">
+							<h3 class="text-lg font-bold text-gray-900 group-hover:text-purple-600 transition-colors flex-1">
+								{{repo_name}}
+							</h3>
+							<span class="text-gray-400 text-sm">⭐</span>
 						</div>
-					{% if loopindex == 0 %}
-					</div>
-					{% endif %}
+						<p class="text-gray-600 text-sm mb-4">View on GitHub</p>
+						<div class="flex items-center text-xs text-gray-500">
+							<span class="mr-4">Repository</span>
+							<span>→</span>
+						</div>
+					</a>
 				{% endfor %}
-				{% if loopindex == 1 %}
-					</div>
-				{% endif %}
 			</div>
 		</div>
-	</div>
+	</section>
 {% endif %}
