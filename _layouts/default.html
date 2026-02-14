@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 	{% include head.html %}
-	<body>
+	<body class="bg-gradient-to-br from-slate-50 to-blue-50 text-gray-800 font-sans">
 		{% include header.html %}
-		<div class="container">
+		<main class="min-h-screen">
 			{{ content }}
-			{% include footer.html %}
-		</div>
+		</main>
+		{% include footer.html %}
 		{% include jsimports.html %}
 	</body>
 </html>

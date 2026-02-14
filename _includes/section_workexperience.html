@@ -1,32 +1,21 @@
-<div class="rounded_panel txt_lightgrey">
-	<div class="top-rounded-panel grey-bg">
-		<h1>Work Experience</h1>
-	</div>
-	<div class="content-rounded-panel">
-		<div>
-			<table class="table table-striped table-hover table-condensed">
-				<thead>
-					<tr>
-						<th><a style="cursor: pointer;">Title</a></th>
-						<th><a style="cursor: pointer;">Start Date</a></th>
-						<th><a style="cursor: pointer;">End Date</a></th>
-						<th><a style="cursor: pointer;">Company</a></th>
-						<th class="hidden-sm hidden-xs" ><a style="cursor: pointer;">Role</a></th>
-					</tr>
-				</thead>
-				<tbody>
-					{% for role in site.roles %}
-						<tr>
-							<td>{{role.title}}</td>
-							<td>{{role.start}}</td>
-							<td>{{role.end}}</td>
-							<td>{{role.employer}}</td>
-							<td class="hidden-sm hidden-xs" >{{role.description}}</td>
-						</tr>
-					{% endfor %}
-				</tbody>
-			</table>
+<section id="experience" class="py-16 lg:py-20">
+	<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+		<h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-12 text-center">Work Experience</h2>
+		<div class="space-y-8">
+			{% for role in site.roles %}
+				<div class="bg-white rounded-xl shadow-lg p-6 lg:p-8 hover:shadow-xl transition-shadow duration-300 border-l-4 border-blue-500">
+					<div class="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-4">
+						<div class="flex-1">
+							<h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-2">{{role.title}}</h3>
+							<p class="text-lg text-gray-700 font-medium mb-2">{{role.employer}}</p>
+						</div>
+						<div class="lg:text-right mt-2 lg:mt-0">
+							<p class="text-sm font-medium text-gray-500">{{role.start}} - {{role.end}}</p>
+						</div>
+					</div>
+					<p class="text-gray-600 leading-relaxed">{{role.description}}</p>
+				</div>
+			{% endfor %}
 		</div>
-		<br>
 	</div>
-</div>
+</section>

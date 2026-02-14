@@ -1,28 +1,100 @@
-# NerdAbility - A CV Generator
+# Portfolio & CV Site
 
-A Jekyll based CV page generator.
+A modern Jekyll-based portfolio and CV page with Tailwind CSS.
 
-## Making your own CV
+## Tech Stack
 
-To make your own GitHub hosted CV:
+- **Jekyll** - Static site generator
+- **Tailwind CSS v4** - Utility-first CSS framework
+- **GitHub Pages** - Hosting
 
-1. Fork this repo into your github account
-2. Click the "Settings" button in your new forked repository (in the menu on the right), and change the repository's name to `{{yourusername}}.github.io`, replacing your username with your GitHub user name.
-3. Update `/_config.yml` with the details of your CV - the comments will explain what is required.
-4. Push to your github remote resitory.
-5. Visit `http://{{yourusername}}.github.io` to check it out.
-6. Share your new CV/Profile with the world!
+## Prerequisites
 
-## Running
+- **Ruby** & **Jekyll**
+- **Node.js** & **npm** (for Tailwind CSS)
 
-If you want to test it locally:
+## Installation
 
-- install **Ruby** & **Jekyll**
-- clone the repository locally
-- run `bundle` to install dependencies
-- `jekyll serve`
-- navigate to `localhost:4000`
+1. Clone the repository locally
+```bash
+git clone https://github.com/belgoros/belgoros.github.io.git
+cd belgoros.github.io
+```
 
-## Deploying
+2. Install Ruby dependencies
+```bash
+bundle install
+```
 
-If you want to host the page on your own web hosting, you will need to run it locally and jekyll will build the site files to the `/_site` directory which you can then push to your hosting provider - See https://jekyllrb.com/ for more details.
+3. Install Node.js dependencies
+```bash
+npm install
+```
+
+## Development
+
+### Build Tailwind CSS
+
+Build the CSS file (required before running Jekyll):
+```bash
+npm run build:css
+```
+
+Watch for changes and auto-rebuild CSS:
+```bash
+npm run watch:css
+```
+
+### Run Jekyll
+
+Start the Jekyll development server:
+```bash
+bundle exec jekyll serve
+```
+
+Then navigate to `http://localhost:4000`
+
+## Making Changes
+
+1. Update `_config.yml` with your personal details
+2. Modify content in `_includes/` section files
+3. If you change Tailwind classes, rebuild CSS with `npm run build:css`
+4. Commit the generated `css/tailwind.css` file (required for GitHub Pages)
+
+## Deployment to GitHub Pages
+
+GitHub Pages will automatically build and deploy when you push to the `master` branch:
+
+```bash
+# Build CSS
+npm run build:css
+
+# Commit changes
+git add .
+git commit -m "Update content"
+
+# Push to GitHub
+git push origin master
+```
+
+Your site will be live at `https://belgoros.github.io`
+
+## Project Structure
+
+```
+.
+├── _config.yml           # Site configuration
+├── _includes/            # Section components
+├── _layouts/             # Page layouts
+├── css/
+│   ├── input.css        # Tailwind source
+│   └── tailwind.css     # Built CSS (commit this)
+├── index.html           # Main page
+└── package.json         # Node dependencies
+```
+
+## Customization
+
+- **Colors & Theme**: Edit `css/input.css` @theme section
+- **Content**: Update `_config.yml` and section files in `_includes/`
+- **Layout**: Modify `_layouts/default.html` and section order in `index.html`

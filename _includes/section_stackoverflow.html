@@ -1,16 +1,17 @@
 {% if site.stackoverflow %}
-	<div class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1>StackOverflow Flair</h1>
-		</div>
-		<div class="content-rounded-panel">
-			<div id="stackScore">
-				<a target='_blank' href="{{site.stackoverflow.profileurl}}">
-					<img src="{{site.stackoverflow.flairimageurl}}" width="208" height="58"
-						alt="profile at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
-						title="profile at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-				</a>
+	<section id="stackoverflow" class="py-16 lg:py-20 bg-white/50">
+		<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-12 text-center">StackOverflow</h2>
+			<div class="flex justify-center">
+				<div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300">
+					<a target='_blank' href="{{site.stackoverflow.profileurl}}" class="block">
+						<img src="{{site.stackoverflow.flairimageurl}}" width="208" height="58"
+							alt="profile at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+							title="profile at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+							class="hover:scale-105 transition-transform duration-300">
+					</a>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 {% endif %}

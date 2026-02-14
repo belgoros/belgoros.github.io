@@ -1,13 +1,10 @@
 {% if site.blogfeed %}
-	<div id="blogBubble" class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1>Recent blog posts</h1>
-		</div>
-		<div class="content-rounded-panel">
-			<div id="blogArticles">
+	<section id="blog" class="py-16 lg:py-20">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-12 text-center">Recent Blog Posts</h2>
+			<div id="blogArticles" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 			</div>
-			<br>
 		</div>
-	</div>
+	</section>
 {% endif %}
 

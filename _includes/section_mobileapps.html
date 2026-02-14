@@ -1,30 +1,19 @@
 {% if site.apps %}
-	<div class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1>Live apps</h1>
-		</div>
-		<div class="content-rounded-panel">
-			<div>
-				<table class="table table-striped table-hover table-condensed">
-					<thead>
-						<tr>
-							<th><a style="cursor: pointer;">App Name</a></th>
-							<th><a style="cursor: pointer;">Link</a></th>
-							<th><a style="cursor: pointer;">Description</a></th>
-						</tr>
-					</thead>
-					<tbody>
-						{% for app in site.apps %}
-							<tr>
-								<td>{{app.name}}</td>
-								<td><a target='_blank' href="{{app.url}}">See application</a></td>
-								<td>{{app.description}}</td>
-							</tr>
-						{% endfor %}
-					</tbody>
-				</table>
+	<section id="projects" class="py-16 lg:py-20">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-12 text-center">Featured Projects</h2>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+				{% for app in site.apps %}
+					<div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border-t-4 border-cyan-500 flex flex-col">
+						<h3 class="text-xl font-bold text-gray-900 mb-3">{{app.name}}</h3>
+						<p class="text-gray-600 mb-4 flex-1">{{app.description}}</p>
+						<a target='_blank' href="{{app.url}}"
+						   class="inline-flex items-center justify-center px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-300">
+							View Project →
+						</a>
+					</div>
+				{% endfor %}
 			</div>
-			<br>
 		</div>
-	</div>
+	</section>
 {% endif %}
