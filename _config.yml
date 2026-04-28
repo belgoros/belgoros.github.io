@@ -179,9 +179,9 @@ courses:
     date: May, 2014
 
 apps:
-  - name: Mediq Health
-    url: https://mediqhealth.be
-    description: Medical appointment application SaaS, built with Phoenix and Elixir
+  - name: Kliniq
+    url: https://kliniq.be
+    description: Medical appointment SaaS, built with Phoenix, LiveView, Oban and Elixir
   - name: Decastore API
     url: https://github.com/belgoros/decastore-api
     description: Decathlon back-office API (Rails)
